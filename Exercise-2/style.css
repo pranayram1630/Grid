@@ -1,0 +1,53 @@
+.grid1 ,.grid2 , .grid3 {
+    width: 80%;
+    height: 28%;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin:0px auto;
+
+}
+
+div{
+    height: 150px;
+    padding: 20px;
+    color: black;
+}
+
+.grid1{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.grid2{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.grid3{
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.box1{
+    background-color: rgb(218, 87, 87) ;
+}
+.box2{
+    background-color: rgb(2, 111, 98);
+}
+.box3{
+    background-color: rgb(178, 32, 178);
+}
+.box4{
+    background-color: rgb(117, 211, 242);
+}
+.box5{
+    background-color: rgb(115, 233, 115);
+}
+.box6{
+    background-color: rgb(4, 180, 4);
+}
+.box7{
+    background-color: rgb(245, 245, 56);
+}
+.box8{
+    background-color: rgb(223, 150, 15);
+}
+.box9{
+    background-color: rgb(227, 8, 8);
+}
